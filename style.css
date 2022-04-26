@@ -401,3 +401,13 @@ footer {
     font-size: 1vw;
   }
 }
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 1em;
+  background-color: var(--bg-color-primary);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 82, 82);
+  border-radius: 10px;
+}
+
